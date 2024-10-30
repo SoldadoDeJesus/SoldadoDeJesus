@@ -19,5 +19,11 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    color: var(--cinza-claro); 
+    color: var(--cinza-claro); /* Define a cor do texto como cinza claro */
 }
+
+/* Adicionando regras específicas para garantir que a cor seja aplicada */
+h1, h2, h3, p {
+    color: var(--cinza-claro); /* Define a cor do texto como cinza claro para cabeçalhos e parágrafos */
+}
+
